@@ -57,7 +57,7 @@ export default function Contact() {
                   className="text-white"
                   href="https://www.google.com/maps/place/Mazar-e-Quaid-e-Azam+Muhammad+Ali+Jinnah/@24.9167872,67.0236672,12z/data=!4m9!1m2!2m1!1s151%2F2!3m5!1s0x3eb33e5e736977c1:0x70ed36c8a6891d3a!8m2!3d24.8753868!4d67.0409721!16zL20vMGI1azUz?entry=ttu&g_ep=EgoyMDI0MTAyMC4wIKXMDSoASAFQAw%3D%3D"
                 >
-                  151/2 aurangabad Nazmabad,Karachi
+                  151/2 aurangabad Nazmabad Karachi
                 </Link>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function Contact() {
            bg-white mx-10 xl:w-[700px] xl:h-[700px] mb-10 rounded-xl xl:m-10">
             <div className="flex flex-col mt-8 mb-10 mx-10 ">
               <h2 className="text-[#2aa5b6] sm:py-5 text-lg font-bold title-font">
-                I'm interested in:
+                I m interested in:
               </h2>
               <div className=" flex flex-wrap gap-2 ">
               <Button onClick={()=>{routes.push("https://www.youtube.com/playlist?list=PLKvqnz8z1zWQ3BALy86tIXICkG874wAc6")}} variant="outline" className="rounded-3xl my-2  

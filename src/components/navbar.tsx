@@ -5,11 +5,10 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faGear, faX } from "@fortawesome/free-solid-svg-icons";
-import { useRouter } from "next/navigation";
+
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const router = useRouter();
   return (
     <main>
       <nav className="p-3 flex bg-[#b2ebf2] bg-opacity-55 justify-between items-center">

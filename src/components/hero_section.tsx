@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export default function Hero_section() {
@@ -17,7 +16,7 @@ export default function Hero_section() {
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center rounded" alt="hero" src="/images/girl_learn.png"></img>
+      <Image className="object-cover object-center rounded" alt="hero" src="/images/girl_learn.png"/>
     </div>
   </div>
 </section>

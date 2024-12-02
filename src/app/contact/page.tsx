@@ -1,6 +1,5 @@
 "use client";
 
-import react from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

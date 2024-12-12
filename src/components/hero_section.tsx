@@ -11,12 +11,14 @@ export default function Hero_section() {
       </h1>
       <p className="my-5 mb-8 text-sm sm:text-lg sm:text-justify  leading-relaxed"> "Stay ahead of the curve with our cutting-edge courses, industry insights, and expert guidance to enhance your professional growth."</p>
       <div className="flex justify-center">
-        <Button className="inline-flex text-[#00838f] border-0 py-2 px-6 focus:outline-none hover:bg-white focus:ring-4 focus:ring-[#00bcd4] font-medium rounded-[5px] text-lg"  >MORE INFO</Button>
+        <Button className="inline-flex outline-[#00838f] text-[#00838f] border-2 border-[#00838f] py-2 px-6 focus:outline-none hover:bg-white focus:ring-4 focus:ring-[#00bcd4] font-medium rounded-[5px] text-lg"  >MORE INFO</Button>
         <Button className="ml-4 inline-flex text-white text-[10px] hover:bg-[#FFA000] bg-[#00bcd4] focus:ring-4 focus:ring-white font-medium rounded-[5px] py-2 px-6 focus:outline-none text-lg">SEE DETAIL</Button>
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <Image className="object-cover object-center rounded" alt="hero" src="/images/girl_learn.png"/>
+      <Image className="object-cover object-center rounded" alt="hero" src="/images/girl_learn.png" 
+      width={400}
+      height={300}/>
     </div>
   </div>
 </section>

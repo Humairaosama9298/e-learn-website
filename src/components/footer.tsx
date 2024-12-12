@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import Link from "next/link";
 import { Card } from "./ui/card";
 
@@ -88,19 +88,21 @@ export default function Footer(){
         <pre className="text-gray-500 text-sm mt-2 md:text-left text-center">Bitters chicharrones fanny pack waistcoat green juice
         </pre>
       </div>
+      </div>
     </div>
-  </div>
   <div className="bg-gray-100">
-    <div className=" bg-[#b2ebf2] px-5 py-6 mx-auto flex flex-col items-center sm:flex-row ">
+    <div className="flex justify-evenly bg-[#b2ebf2] px-5 mx-auto flex-col items-center sm:flex-row ">
       <div className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-    <img className="w-14 h-14 sm:w-14 sm:h-14 md:w-24 md:h-24 md:mb-2"  src="/images/logo.png" alt="logo" ></img>
+    <Image className="flex items-center w-14 h-14 sm:w-14 sm:h-14 md:w-20 md:h-20 md:mb-2"  src="/images/logo.png" alt="logo"
+    width={50}
+    height={50}/>
         <span className=" text-xl">E-Learn</span>
       </div>
       <p className="text-[8px] text-justify px-14">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quam totam quasi est, repellat dolor quaerat vitae in? Eum architecto velit accusamus quae est at adipisci rerum harum sapiente neque!</p>
       <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 E-Learn —
         <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@knyttneve</a>
       </p>
-      <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 px-10 justify-center sm:justify-start">
         <Link href="http://www.facebook.com" className="text-[#316FF6]">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>

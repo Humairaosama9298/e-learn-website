@@ -11,7 +11,6 @@ export default function home(){
   return(
    <div>
     <Hero_section/>
-    <Feature/>
     <Footer/>
    </div>
   )
